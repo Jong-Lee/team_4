@@ -1,0 +1,7 @@
+count = 0
+for i in range(1950, 2018):
+    for j in range(1, 13):
+        if calendar.weekday(i, j, 13) == 4:
+            count += 1
+
+print(count)
